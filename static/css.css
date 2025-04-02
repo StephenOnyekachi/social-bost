@@ -1,0 +1,494 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+:root{
+    --color1: rgb(255, 255, 255);
+    --color2: rgb(246, 246, 246);
+    --color3: rgb(0, 0, 0);
+    --color4: rgb(41, 41, 41);
+    --color5: rgb(0, 255, 17);
+    --color6: rgb(255, 72, 0);
+}
+
+.index-name{
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    background-color: var(--color1);
+    width: 100%;
+    z-index: 100;
+}
+.index-name a{
+    color: var(--color1);
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: var(--color5);
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.index-content{
+    margin-top: 64px;
+    padding: 120px 50px;
+}
+.index-content h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: var(--color3);
+    font-weight: lighter;
+    line-height: 100px;
+}
+.index-content p{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--color4);
+    line-height: 0.8cm;
+}
+.index-content h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: var(--color3);
+    font-weight: lighter;
+    line-height: 100px;
+    font-weight: bold;
+}
+.index-content .count{
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+    color: var(--color5);
+}
+
+.content{
+    padding: 120px 50px;
+    background: linear-gradient(to right, var(--color4), var(--color4));
+}
+.i-v-card{
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+    justify-self: center;
+}
+.i-v-card img{
+    width: 100%;
+    height: 300px;
+}
+.explain-con{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.explain-card{
+    width: 280px;
+    height: 400px;
+    align-content: center;
+    justify-items: center;
+    background-color: var(--color3);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.explain-card h3{
+    color: var(--color1);
+    text-transform: uppercase;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+}
+.explain-card p{
+    color: var(--color2);
+    text-transform: capitalize;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    line-height: 0.8cm;
+}
+.explain-card img{
+    width: 100%;
+    width: 50px;
+}
+.explain-card iframe{
+    width: 100%;
+    width: 50px;
+    /* border: 0px;
+    overflow: hidden; */
+}
+.explain-card video{
+    /* width: 100%; */
+    width: 50px;
+    height: 100px;
+}
+.shot-info{
+    text-align: center;
+    color: var(--color1);
+    padding: 20px 0px;
+}
+.shot-note{
+    padding: 20px 0px;
+    width: 50%;
+}
+.shot-note h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--color5);
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+.shot-note h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--color6);
+    font-weight: lighter;
+}
+.shot-note p{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--color2);
+    font-weight: lighter;
+}
+.notes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    align-content: center;
+}
+
+
+
+
+
+.task-price .error-msm{
+    color: var(--color6);
+}
+.error-msm{
+    color: var(--color5);
+}
+.sitename{
+    background-color: var(--color1);
+    padding: 30px;
+    color: var(--color3);
+    text-transform: capitalize;
+    font-weight: lighter;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+.down{
+    background-color: var(--color1);
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+}
+.down a{
+    background-color: var(--color1);
+    padding: 10px;
+    color: var(--color4);
+    text-transform: capitalize;
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.menu{
+    background-color: var(--color1);
+    margin-top: 85px;
+}
+.menu .username{
+    background-color: var(--color1);
+    padding: 0px 30px;
+    color: var(--color3);
+    text-transform: capitalize;
+    font-weight: lighter;
+    display: flex;
+}
+.menu .username img{
+    background-color: var(--color1);
+    padding: 5px;
+    color: var(--color3);
+    border: 1px solid var(--color5);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.menu .username h4{
+    background-color: var(--color1);
+    padding: 5px;
+    color: var(--color3);
+    text-transform: capitalize;
+    font-weight: lighter;
+    display: flex;
+    margin-top: 13px;
+}
+
+.balance{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.balance .user-balance p{
+ color: var(--color4);
+ text-transform: uppercase;
+ font-size: 12px;
+ font-weight: lighter;
+}
+.balance .user-balance h3{
+    color: var(--color5);
+    font-size: 20px;
+    font-weight: bold;
+}
+.balance .user-status p{
+    color: var(--color4);
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: lighter;
+}
+.balance .user-status i{
+    color: var(--color5);
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.site-content{
+    background-color: var(--color2);
+    padding: 0px 30px;
+}
+.funds h3{
+    padding: 20px 0px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    color: var(--color3);
+    font-size: 12px;
+}
+.funds a{
+    padding: 5px;
+    background-color: var(--color5);
+    text-decoration: none;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+.funds a i{
+    font-weight: lighter;
+    text-transform: capitalize;
+    color: var(--color1);
+    font-size: 12px;
+}
+.mood{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.task h3{
+    padding: 20px 0px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    color: var(--color3);
+}
+.task h3 span{
+    padding: 20px 0px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    color: var(--color5);
+    font-size: 12px;
+}
+.task a{
+    padding: 5px;
+    background-color: var(--color5);
+    text-decoration: none;
+    border-radius: 15px;
+    position: relative;
+    top: 15px;
+    outline: none;
+    border: none;
+}
+.task a i{
+    font-weight: lighter;
+    text-transform: capitalize;
+    color: var(--color1);
+    font-size: 12px;
+}
+.task-content{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 55px;
+    width: 100%;
+}
+.task-content-2{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 55px;
+    width: 100%;
+    margin-top: 85px;
+}
+.task-card{
+    width: 49%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.task-card-2{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.task-price{
+    display: flex;
+    justify-content: space-between;
+}
+.task-price span{
+    display: flex;
+    text-transform: capitalize;
+}
+.task-price span b{
+    color: var(--color5);
+}
+.task-button a{
+    margin-right: 5px;
+}
+.card-content{
+    padding: 20px;
+    width: 100%;
+    background-color: var(--color1);
+    border-radius: 10px;
+    box-shadow: 0px 2px var(--color2);
+}
+.card-content img{
+    border: 1px solid var(--color5);
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.card-content p{
+    padding: 10px 0px;
+    width: 100%;
+    text-transform: capitalize;
+    color: var(--color4);
+    font-weight: lighter;
+}
+.card-content h3{
+    padding: 10px 0px;
+    width: 100%;
+    text-transform: capitalize;
+    color: var(--color4);
+}
+/* .card-content a{
+    padding: 5px;
+    background-color: var(--color5);
+    text-decoration: none;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+} */
+.card-content a span{
+    font-weight: lighter;
+    text-transform: capitalize;
+    color: var(--color1);
+    font-size: 12px;
+}
+.input{
+    border: 1px solid var(--color2);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+.input textarea{
+    padding: 6px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 100px;
+}
+.input input{
+    padding: 6px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.input select{
+    padding: 6px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.input i{
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: var(--color5);
+}
+.input button{
+    padding: 6px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: var(--color1);
+    background-color: var(--color5);
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.aut span{
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: var(--color4);
+    text-transform: capitalize;
+}
+.aut span a{
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    color: var(--color5);
+    background-color: var(--color1);
+}
+
+.action-a{
+    padding: 5px;
+    background-color: var(--color5);
+    text-decoration: none;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+.danger-a{
+    padding: 5px;
+    background-color: var(--color6);
+    text-decoration: none;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+.none-a{
+    padding: none;
+    background-color: inherit;
+    text-decoration: none;
+    border-radius: none;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
